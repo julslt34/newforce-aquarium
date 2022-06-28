@@ -1,0 +1,51 @@
+aside {
+    width: 20%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+     box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
+}
+
+aside > p {
+    margin: .5rem;
+}
+
+/* #box {
+     border: 1px solid rgb(25, 188, 194);
+     
+       }
+   
+#box1 {
+     border: 1px solid rgb(25, 188, 194);
+     
+          } */
+
+.pageHeader {
+ flex-basis: 16%; 
+ background-color: #DBF9FC;
+  padding: 3em;
+  margin: 0.5em;
+  text-align: center;
+  font-size: 22px;
+}
+
+
+ .quotes {
+    
+    flex-basis: 16%;
+   padding: 0.80em;
+  margin: 0.em;
+  text-align: center;
+  font-size: 22px;
+  }    
+
+
+   .pageHeader {text-align: center;}
+
+   .fish-info {
+    display: flex;
+    
+   }
+  
