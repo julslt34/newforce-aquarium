@@ -1,16 +1,33 @@
 aside {
-    width: 20%;
-    padding-left: .5rem;
-    margin-left: .5rem;
-    float: right;
-     box-shadow: inset 5px 0 5px -5px #29627e;
-    font-style: italic;
-    color: #29627e;
+  width: 20%;
+  padding-left: .5rem;
+  margin-left: .5rem;
+  float: right;
+  box-shadow: inset 5px 0 5px -5px #29627e;
+  font-style: italic;
+  color: #29627e;
 }
 
-aside > p {
-    margin: .5rem;
+aside>p {
+  margin: .5rem;
 }
+
+ .fish__image {
+  width: 150px;
+  height: 130px;
+  overflow: hidden;
+  
+} 
+
+/* .fish__image {
+    width:auto;
+  height:100px;
+  float: left;
+} */
+
+/* .fish-info {
+ outline: 1px solid red;
+}  */
 
 /* #box {
      border: 1px solid rgb(25, 188, 194);
@@ -23,8 +40,8 @@ aside > p {
           } */
 
 .pageHeader {
- flex-basis: 16%; 
- background-color: #DBF9FC;
+  flex-basis: 16%;
+  background-color: #DBF9FC;
   padding: 3em;
   margin: 0.5em;
   text-align: center;
@@ -32,20 +49,22 @@ aside > p {
 }
 
 
- .quotes {
-    
-    flex-basis: 16%;
-   padding: 0.80em;
+.quotes {
+
+  flex-basis: 16%;
+  padding: 0.80em;
   margin: 0.em;
   text-align: center;
   font-size: 22px;
-  }    
+}
 
 
-   .pageHeader {text-align: center;}
+.pageHeader {
+  text-align: center;
+}
 
-   .fish-info {
-    display: flex;
-    
-   }
-  
+.fish-info {
+  display: flex;
+
+}
+
